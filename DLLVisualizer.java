@@ -14,18 +14,20 @@ public class DLLVisualizer
      */
     public static void main(String[] args) throws Exception{
 
-        //Define credentials
+        // TO DO: Define credentials
         final String API_KEY = "INSERT_API_KEY_HERE";
         final String USER_ID = "INSERT_USER_ID_HERE";
+        
+        // No need to modify Bridges constructor
         Bridges bridge = new Bridges(1, API_KEY, USER_ID);
 
-        //Define the objects to be added to your DLL
+        // TO DO: Build the objects to be added to your DLL
         
 
-        //Build the head 
+        // TO DO: Build the head 
         DLelement head = null;
         
-        //Create the rest of the Nodes/DLelements and link them to form a DLL
+        // TO DO: Create the rest of the Nodes/DLelements and link them to form a DLL
         
         //Prepare for visualization
         bridge.setDataStructure(head);
