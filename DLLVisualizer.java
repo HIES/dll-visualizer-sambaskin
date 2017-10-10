@@ -29,8 +29,11 @@ public class DLLVisualizer
         
         head.setNext(rag1);
         rag1.setNext(rag2);
+        rag1.setPrev(head);  
         rag2.setNext(mong);
-
+        rag2.setPrev(rag1);
+        mong.setPrev(rag2);
+        
         bridge.setDataStructure(head);
         bridge.setTitle("A Doubly-Linked List");
         bridge.visualize();
